@@ -10,10 +10,10 @@ from AlexaSongBot.mrdarkprince import ignore_blacklisted_users
 from AlexaSongBot.sql.chat_sql import add_chat_to_db
 
 start_text = """
-Hey [{}](tg://user?id={}),
-I'm Alexa 🤗
-Just send me the song name you want to download.
-Eg: ```/song Faded Alan Walker```
+Hello [{}](tg://user?id={}),
+I'm OliverMusicBot(MM)
+You can search the song with under commend.
+Eg: ```/song Unstoppable```
 """
 
 owner_help = """
@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔳 Source Code 🔳", url="https://github.com/Mr-Dark-Prince/AlexaSongBot"
+                        text="🔳 contact 🔳", url="https://t.me/@VeeMax21"
                     )
                 ]
             ]
